@@ -64,5 +64,10 @@ public class Agenda
     {
         Agenda agenda = new Agenda();
         agenda.executar();
+        
+        for (int i = 0; i < 100; i++) 
+        {
+            System.out.println("Número " + i);
+        }
     }
 }
